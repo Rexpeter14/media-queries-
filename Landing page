@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="">
+
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=poppins:weight@100&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=open+sea:wgth@400;700&display=swap');
+        body{
+
+    width: 100vw;
+
+    height: 100vh;
+
+    margin: 0;
+
+    overflow-x: hidden;
+
+    box-sizing: border-box;
+
+    font-family: Open Sans;
+
+    font-weight: 400,700;
+
+}
+
+h1{
+
+    font-family: poppins,sans-serif;
+
+}
+
+.section1{
+
+    padding: 20px;
+
+    background:rgba(106, 149, 152, 0.2) ;
+
+    background-position: cover;
+
+    background-repeat: no-repeat;
+
+    background-image: url(images/bg-hero-desktop.svg);
+
+}
+
+.logo{
+
+    padding: 5px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    margin-left: 30px;
+
+    padding-right: 40px;
+
+}
+
+#butt2{
+
+    padding-right: 30px;
+
+    padding-left: 30px;
+
+}
+
+img{
+
+    padding-left: 20px;
+
+    margin-left: 5px;
+
+    padding-top: 40px;
+
+}
+
+button{
+
+    padding: 10px;
+
+    border:1px whitesmoke solid;
+
+    background-color: whitesmoke;
+
+    color:black;
+
+    border-radius: 20px;
+
+    padding-left: 30px;
+
+    padding-right: 30px;
+
+    border: none;
+
+}
+
+.butt2{
+
+    padding-top: 40px;
+
+}
+
+#butt{
+
+    background:hotpink;
+
+    color: white;
+
+    
+
+}
+
+.header-text{
+
+    padding: 40px;
+
+    margin-top: 20px;
+
+    padding-left: 50px;
+
+    padding-bottom: 60px;
+
+}
+
+.header-text h1{
+
+    text-transform: capitalize;
+
+}
+
+.section2{
+
+    padding-top: 30px;
+
+    margin:10px;
+
+    padding-left: 40px;
+
+    padding-right: 40px;
+
+}
+
+.brand{
+
+    background-color:  rgba(199, 203, 203, 0.2);
+
+    padding: 30px;
+
+    border-radius: 10px;
+
+    padding-left: 50px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+}
+
+#brand{
+
+    align-items: right;
+
+}
+
+#butt3{
+
+    color: white;
+
+    background-color: hotpink;
+
+    padding: 15px;
+
+    padding-left: 40px;
+
+    padding-right: 40px;
+
+    font-size: small;
+
+    border-radius: 30px;
+
+    border: none;
+
+}
+
+.section3{
+
+    text-align: center;
+
+    padding-top: 50px;
+
+    line-height: 20px;
+
+    margin-bottom: -35px;
+
+    position: relative;
+
+    z-index: 2;
+
+    
+
+}
+
+.ready{
+
+    padding: 20px;
+
+    background: whitesmoke;
+
+    border-radius: 10px;
+
+    margin-left: 400px;
+
+    margin-right: 400px;
+
+    border: 1px solid whitesmoke;
+
+    padding-bottom: 20px;
+
+}
+
+.section4{
+
+    background-color: rgb(15, 15, 17);
+
+    color: white;
+
+    z-index: 2;
+
+}
+
+#logo{
+
+    width: 100px;
+
+    height: 30px;
+
+}
+
+.icons{
+
+    display: flex;
+
+    justify-content: first baseline;
+
+}
+
+.icons p{
+
+    font-size: smaller;
+
+    margin-left: 5px;
+
+    padding-top: 25px;
+
+}
+
+.icon-phone{
+
+    justify-content: baseline;
+
+    display: flex;
+
+    font-size: smaller;
+
+    padding-top: 0px;
+
+}
+
+.icon-phone p{
+
+    padding-top: 33px;
+
+    margin: 5px;
+
+}
+
+.icon-email{
+
+    justify-content: first baseline;
+
+    display: flex;
+
+    font-size: smaller;
+
+}
+
+.icon-email p  {
+
+    padding-top: 22px;
+
+    margin-left: 5px;
+
+}
+
+.about{
+
+    text-align: center;
+
+    list-style-type: none;
+
+}
+
+.about a {
+
+    text-decoration: none;
+
+    color: white;
+
+    font-size: smaller;
+
+}
+
+.about ul li{
+
+    list-style-type: none;
+
+}
+
+.about-us{
+
+    text-align: right;
+
+    text-decoration: none;
+
+    margin-left:40px ;
+
+    font-size: smaller;
+
+}
+
+    
+
+.about-us a {
+
+    text-decoration: none;
+
+    color: white;
+
+}
+
+.about-us ul li{
+
+    list-style-type: none;
+
+}
+
+#flex{
+
+    display: flex;
+
+    margin-left: 20px;
+
+    padding-top: 16px;
+
+}
+
+@media screen and (max-width:375px) {
+
+    body{
+
+        width: 100vw;
+
+        height: 100vh;
+
+        margin: 0;
+
+        overflow-x: hidden;
+
+        box-sizing: border-box;
+
+    }
+
+    .section1{
+
+        padding: 20px;
+
+        background:rgba(106, 149, 152, 0.2) ;
+
+        background-position: cover;
+
+        background-repeat: no-repeat;
+
+        background-image: url(images/bg-hero-desktop.svg);
+
+    }
+
+    .logo{
+
+        padding: 5px;
+
+        display: flex;
+
+        justify-content: space-between;
+
+        margin-left: 30px;
+
+        padding-right: 40px;
+
+    }
+
+    #butt2{
+
+        padding-right: 30px;
+
+        padding-left: 30px;
+
+    }
+
+    img{
+
+        padding-left: 20px;
+
+        margin-left: 5px;
+
+        padding-top: 40px;
+
+    }
+
+    button{
+
+        padding: 10px;
+
+        border:1px whitesmoke solid;
+
+        background-color: whitesmoke;
+
+        color:black;
+
+        border-radius: 20px;
+
+        padding-left: 30px;
+
+        padding-right: 30px;
+
+        border: none;
+
+    }
+
+    .butt2{
+
+        padding-top: 40px;
+
+    }
+
+    #butt{
+
+        background:hotpink;
+
+        color: white;
+
+        
+
+    }
+
+    .header-text{
+
+        padding: 40px;
+
+        margin-top: 20px;
+
+        padding-left: 50px;
+
+        padding-bottom: 60px;
+
+    }
+
+    .header-text h1{
+
+        text-transform: capitalize;
+
+    }
+
+    .section2{
+
+        padding-top: 30px;
+
+        margin:10px;
+
+        padding-left: 40px;
+
+        padding-right: 40px;
+
+    }
+
+    
+
+    
+
+    .brand{
+
+        background-color:  rgba(199, 203, 203, 0.2);
+
+        padding: 30px;
+
+        border-radius: 10px;
+
+        padding-left: 50px;
+
+        display: flex;
+
+        justify-content: space-between;
+
+    
+
+    }
+
+    #brand{
+
+        align-items: right;
+
+    }
+
+    #butt3{
+
+        color: white;
+
+        background-color: hotpink;
+
+        padding: 15px;
+
+        padding-left: 40px;
+
+        padding-right: 40px;
+
+        font-size: small;
+
+        border-radius: 30px;
+
+        border: none;
+
+    }
+
+    .section3{
+
+        text-align: center;
+
+        padding-top: 50px;
+
+        line-height: 20px;
+
+        margin-bottom: -35px;
+
+        position: relative;
+
+        z-index: 2;
+
+        
+
+    }
+
+    .ready{
+
+        padding: 20px;
+
+        background: whitesmoke;
+
+        border-radius: 10px;
+
+        margin-left: 400px;
+
+        margin-right: 400px;
+
+        border: 1px solid whitesmoke;
+
+        padding-bottom: 20px;
+
+    }
+
+    .section4{
+
+        background-color: rgb(15, 15, 17);
+
+        color: white;
+
+        z-index: 2;
+
+    }
+
+    #logo{
+
+        width: 100px;
+
+        height: 30px;
+
+    }
+
+    .icons{
+
+        display: flex;
+
+        justify-content: first baseline;
+
+    
+
+    }
+
+    .icons p{
+
+        font-size: smaller;
+
+        margin-left: 5px;
+
+        padding-top: 25px;
+
+    }
+
+    .icon-phone{
+
+        justify-content: baseline;
+
+        display: flex;
+
+        font-size: smaller;
+
+        padding-top: 0px;
+
+    }
+
+    .icon-phone p{
+
+        padding-top: 33px;
+
+        margin: 5px;
+
+    }
+
+    .icon-email{
+
+        justify-content: first baseline;
+
+        display: flex;
+
+        font-size: smaller;
+
+    }
+
+    .icon-email p  {
+
+        padding-top: 22px;
+
+        margin-left: 5px;
+
+    }
+
+    .about{
+
+        text-align: center;
+
+        list-style-type: none;
+
+    }
+
+    .about a {
+
+        text-decoration: none;
+
+        color: white;
+
+        font-size: smaller;
+
+    }
+
+    .about ul li{
+
+        list-style-type: none;
+
+    }
+
+    .about-us{
+
+        text-align: right;
+
+        text-decoration: none;
+
+        margin-left:40px ;
+
+        font-size: smaller;
+
+    }
+
+        
+
+    .about-us a {
+
+        text-decoration: none;
+
+        color: white;
+
+    }
+
+    .about-us ul li{
+
+        list-style-type: none;
+
+    }
+
+    #flex{
+
+        display: flex;
+
+        margin-left: 20px;
+
+        padding-top: 16px;
+
+    }
+
+}
+
+    </style>
+
+    <title>landing page</title>
+
+</head>
+
+<body>
+
+    <div class="section1">
+
+        <div class="logo">  
+
+            <img src="images/logo.svg" width="120px" height="30px">
+
+            <div class="butt2">
+
+                <button type="button" id="butt2">Try it free</button>
+
+            </div>
+
+        </div>
+
+        <div class="header-text">
+
+            <div class="text">
+
+                <h1>Build The community <br> your fans will love </h1>
+
+            <p>
+
+                Huddle re-imagines the way we build communities. You have <br>
+
+                a voice, but so your audieence. Create connection with <br>
+
+                your user as you engage in genuine discussion.
+
+            </p>
+
+            <button type="button" id="butt">Get started for free</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="section2">
+
+        <div class="brand">
+
+            <div class="element">
+
+                <h2>Grow Together</h2>
+
+            <p>Geneate meaningful discussion with your audience and <br>
+
+            build a strong loyal community. Think of the insightful <br>
+
+        conversations you miss out on feedback form.</p>
+
+            </div>
+
+        <img src="images/illustration-grow-together.svg" width="200px" height="auto" width="40px"="">
+
+        </div><br>
+
+        <div class="brand">
+
+        <img src="images/illustration-flowing-conversation.svg"  width="200px" height="auto" width="40px"="">
+
+        <div class="element">
+
+            <h2>Flowing conversations</h2>
+
+            <p>You wouldn't paginate a conversation in real life, so why do <br>
+
+                it online? Our thread have just-in-time loading for a more <br>
+
+                natural flow.</p>
+
+        </div>
+
+        </div><br>
+
+        <div class="brand">
+
+            <div id="element-brand">
+
+                <h2>Your Users</h2>
+
+            <p>its takes no time at all to integrate Huddle with your app's <br>
+
+            auntentication solution, this means, once signed in to <br>
+
+            your apps, your users can start chatting immediately.</p>
+
+            </div>
+
+        <img src="images/illustration-your-users.svg" width="200px" height="auto" width="40px">
+
+        </div>
+
+    </div>
+
+    <div class="section3">
+
+        <div class="ready">
+
+            <h2>Ready To Build Your Community?</h2>
+
+            <button type="button" id="butt3"> Get Started For Free</button>
+
+        </div>
+
+    </div>
+
+    <footer>
+
+        <section class="section4">
+
+            <div class="log">
+
+                <img src="images/logo.svg" id="logo">
+
+            </div>
+
+            <div class="icons">
+
+                <img src="images/icon-location.svg" width="10px" height="10px">
+
+                <p>Lorem ipsum dolor sit amet consectetur <br>
+
+                     adipisicing elit. Ea, laboriosam itaque.  <br>
+
+                     Iure, totam aperiam mollitia nihil veniam voluptates?</p>
+
+                     <div id="flex">
+
+                        <div class="about">
+
+                            <ul>
+
+                                <li><a href="">About</a></li>
+
+                                <li><a href=""> What We Do</a></li>
+
+                                <li><a href="">FAQ</a></li>
+
+                            </ul>
+
+                            </div>
+
+                    
+
+                            <div class="about-us">
+
+                                <ul>
+
+                                    <li><a href="">Career</a></li>
+
+                                    <li><a href=""> Blog</a></li>
+
+                                    <li><a href="">Contact us</a></li>
+
+                                </ul>
+
+                                </div>
+
+                     </div>
+
+            </div>
+
+            <div class="icon-phone">
+
+                <img src="images/icon-phone.svg" width="10px" height="9px">
+
+                <p>+1-543-123-4567</p>
+
+            </div>
+
+            <div class="icon-email">
+
+                <img src="images/icon-email.svg" width="10px" height="8px">
+
+                <p>examples@huddles.com</p>
+
+            </div>
+
+            
+
+        </section>
+
+    </footer>
+
+</body>
+
+</body>
+
+</html>
